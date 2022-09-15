@@ -1,0 +1,9 @@
+<h1>Secciones</h1>
+<app-formulario-seccion (enviarSeccion)="escucharSeccion($event)"></app-formulario-seccion>
+<hr>
+<h1>Registrar Asistencia</h1>
+<h2>Datos Alumnos</h2>
+<hr>
+<app-formulario-alumno (enviarAlumno)="escucharAlumno($event)"></app-formulario-alumno>
+<hr>
+<app-lista-alumnos [alumno]="listaAlumno"></app-lista-alumnos>
